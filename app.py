@@ -314,7 +314,7 @@ def toggle_pin(conversation_id):
 
 if "theme" not in st.session_state:
 
-    st.session_state.theme = "Light"
+    st.session_state.theme = "Dark"
 
 
 if "active_page" not in st.session_state:
